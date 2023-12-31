@@ -1,0 +1,30 @@
+items:
+-   label: 计算机视觉
+    file: README.md
+    collapsed: true
+    items:
+    -   label: 理论
+        items:
+        -   label: YOLOv8
+            file: CV/YOLOv8.md
+    -   label: 实战
+        items:
+        -   label: 基于YOLOv8的mario检测
+            file: CV/supermario.md
+
+
+-   label: 自然语言处理
+    file: NLP/README.md
+    collapsed: true
+    items:
+    -   label: 实战
+        items:
+        -   label: HuggingFace使用
+            file: NLP/HuggingFace使用.md
+        -   label: 中文情感分类
+            file: NLP/中文情感分类.md
+        -   label: 中文填空
+            file: NLP/中文填空.md
+        -   label: 中文句子关系推断
+            file: NLP/中文句子关系推断.md
+        

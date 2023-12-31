@@ -1,0 +1,86 @@
+items:
+-   label: Rust
+    file: Rust/README.md
+    collapsed: true
+    items:
+    -   label: Rust基础
+        items:
+        -   label: 所有权
+            file: Rust/Rust基础/所有权.md
+        -   label: 引用与借用
+            file: Rust/Rust基础/引用与借用.md   
+        -   label: 函数
+            file: Rust/Rust基础/枚举.md        
+        -   label: 集合
+            file: Rust/Rust基础/集合.md
+        -   label: 泛型
+            file: Rust/Rust基础/泛型.md
+        -   label: 特征trait
+            file: Rust/Rust基础/特征trait.md   
+        -   label: 生命周期 
+            file: Rust/Rust基础/生命周期.md
+        -   label: 元祖和枚举
+            file: Rust/Rust基础/元祖和枚举.md
+        -   label: 哈希
+            file: Rust/Rust基础/哈希.md
+        -   label: 宏和派生
+            file: Rust/Rust基础/宏和派生.md
+        -   label: 缺失处理
+            file: Rust/Rust基础/缺失处理.md
+        -   label: 错误处理
+            file: Rust/Rust基础/错误处理.md
+        -   label: 迭代器
+            file: Rust/Rust基础/迭代器.md
+
+    -   label: Rust练习
+        items:
+        -   label: 汽车工厂
+            file: Rust/Rust练习/汽车工厂.md
+        -   label: 使用Option类型来处理错误
+            file: Rust/Rust练习/使用Option类型来处理缺失.md
+        -   label: 使用Result类型来处理错误
+            file: Rust/Rust练习/使用Result类型来处理错误.md
+        -   label: 生存周期
+            file: Rust/Rust练习/生存周期.md
+        -   label: 泛型基础练习
+            file: Rust/Rust练习/泛型基础练习.md
+        -   label: 迭代器练习
+            file: Rust/Rust练习/迭代器练习.md
+
+    -   label: Rust实战
+        items: 
+        -   label: 成绩判断
+            file: Rust/Rust实战/Rust实战1.md
+        -   label: Todo App
+            file: Rust/Rust实战/Rust实战2.md
+        -   label: 计算器
+            file: Rust/Rust实战/Rust实战3.md
+        -   label: 计算器2
+            file: Rust/Rust实战/Rust实战4.md
+
+    -   label: 并发编程
+        items:
+        -   label: 线程
+            file: Rust/并发编程/使用线程同时运行代码.md
+        -   label: 消息传递
+            file: Rust/并发编程/消息传递在线程间通信.md
+        -   label: 同步
+            file: Rust/并发编程/同步.md
+
+    -   label: Rocket
+        items:
+        -   label: Rocket入门（一）
+            file: Rust/Rocket/Rocket入门1.md
+
+-   label: Java
+    file: Java/README.md
+    collapsed: true
+    items:
+    -   label: Hibernate
+        items:
+        -   label: Hibernate入门
+            file: Java/Hibernate/Hibernate.md
+    -   label: Struts2
+        items:
+        -   label: Struts2入门
+            file: Java/Struts2/Struts2.md

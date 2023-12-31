@@ -1,0 +1,109 @@
+{
+    "locale": "zh_CN",
+    "class": "language_zh",
+    "navbar": {
+        "title": "真真夜夜的知识库",
+        "logo": {
+            "alt": "my_site logo",
+            "src": "/static/image/logo.png"
+        },
+        "home_url": "/",
+        "items": [
+            {
+                "url": "/Language/",
+                "label": "咕噜",
+                "position": "left",
+                "items": [
+                    {
+                        "url": "/Language/Rust/",
+                        "label": "Rust"
+                    },
+                    {
+                        "url": "/Language/Java/",
+                        "label": "Java"
+                    }
+                ]
+            },
+            {
+                "url": "/DeepLearning/",
+                "label": "深度学习实战",
+                "position": "left"
+            },
+            {
+                "url": "/DataScience/",
+                "label": "数据科学竞赛",
+                "position": "left"
+            },
+            {
+                "id": "language",
+                "label": "Language: ",
+                "position": "right",
+                "type": "language",
+                "hidden": true
+            }
+        ]
+    },
+    "footer":{
+        "top":[
+            {
+                "label": "链接",
+                "items": [
+                    {
+                        "label": "使用 teedoc 构建",
+                        "url": "https://teedoc.neucrack.com",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "网站地图",
+                        "url": "/sitemap.xml"
+                    }
+                ]
+            },
+            {
+                "label": "源码",
+                "items": [
+                    {
+                        "label": "github",
+                        "url": "https://github.com/neutree/teedoc",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "gitee",
+                        "url": "https://gitee.com/teedoc/teedoc",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "本网站源文件",
+                        "url": "https://github.com/teedoc/teedoc.github.io",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "label": "*ICP备********号",
+                "url": "https://beian.miit.gov.cn",
+                "target": "_blank"
+            },
+            {
+                "label": "*公网安备***********号",
+                "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************",
+                "target": "_blank"
+            }
+        ]
+    },
+    "plugins": {
+        "teedoc-plugin-search":{
+            "config": {
+                "search_hint": "搜索",
+                "input_hint": "输入关键词，多关键词空格隔开",
+                "loading_hint": "正在加载，请稍候。。。",
+                "download_err_hint": "下载文件失败，请刷新重试或检查网络",
+                "other_docs_result_hint": "来自其它文档的结果",
+                "curr_doc_result_hint": "当前文档搜索结果"
+            }
+        }
+    },
+    "show_source": "编辑本页"
+}
