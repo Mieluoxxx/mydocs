@@ -27,4 +27,12 @@ items:
             file: NLP/中文填空.md
         -   label: 中文句子关系推断
             file: NLP/中文句子关系推断.md
-        
+
+-   label: 常用工具
+    file: README.md
+    collapsed: true
+    items:
+    -   label: 框架
+        items:
+        -   label: torchkeras
+            file: Utils/torchkeras的学习.ipynb
